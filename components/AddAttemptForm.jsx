@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { addAttempt } from "@/lib/firestoreUtils"
-import { getRandomMessage } from "@/utils/calcStats"
 import PixelConfetti from "./PixelConfetti"
 
 export default function AddAttemptForm({ onSuccess }) {
@@ -23,7 +22,6 @@ export default function AddAttemptForm({ onSuccess }) {
     const result = await addAttempt(numberOfTries)
 
     if (result.success) {
-      setMessage(getRandomMessage())
       setShowConfetti(true)
       setNumberOfTries("")
 
@@ -35,10 +33,7 @@ export default function AddAttemptForm({ onSuccess }) {
 
       // Notify parent to refresh data
       if (onSuccess) onSuccess()
-    } else {
-      setMessage("Error saving attempt. Check Firebase config!")
     }
-
     setLoading(false)
   }
 

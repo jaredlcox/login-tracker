@@ -109,22 +109,3 @@ export function calculateStats(attempts) {
     averageByYear: Math.round(averageByYear * 10) / 10,
   }
 }
-
-// Get random funny message
-export function getRandomMessage() {
-  const messages = [
-    "Maybe next time!",
-    "Third time's the charm!",
-    "Practice makes perfect!",
-    "Getting better!",
-    "Keep trying!",
-    "Almost there!",
-    "You got this!",
-    "Nice attempt!",
-    "Progress!",
-    "One step closer!",
-    "Persistence pays off!",
-    "Never give up!",
-  ]
-  return messages[Math.floor(Math.random() * messages.length)]
-}
