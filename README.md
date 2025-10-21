@@ -13,8 +13,7 @@ A funny internal tracker app built with Next.js 14 and Firebase Firestore that r
 
 ### 1. Install Dependencies
 
-\`\`\`bash
-npm install
+\`\`\`npm install
 \`\`\`
 
 ### 2. Configure Firebase
