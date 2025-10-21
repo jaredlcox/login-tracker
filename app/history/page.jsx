@@ -84,7 +84,7 @@ export default function HistoryPage() {
 
                 <div className="text-center">
                   <div className="text-5xl font-bold text-[#22d3ee] text-glow mb-2">{attempt.numberOfTries}</div>
-                  <div className="text-xs text-foreground/60">{attempt.numberOfTries === 1 ? "TRY" : "TRIES"}</div>
+                  <div className="text-xs text-white/80">{attempt.numberOfTries === 1 ? "TRY" : "TRIES"}</div>
                 </div>
               </div>
             ))}

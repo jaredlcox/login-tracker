@@ -51,7 +51,7 @@ export default function AddAttemptForm({ onSuccess }) {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="tries" className="block text-sm mb-3 text-foreground/80">
+            <label htmlFor="tries" className="block text-sm mb-3 text-[#22d3ee]">
               How many tries did it take?
             </label>
             <input
@@ -60,7 +60,7 @@ export default function AddAttemptForm({ onSuccess }) {
               min="1"
               value={numberOfTries}
               onChange={(e) => setNumberOfTries(e.target.value)}
-              className="w-full px-4 py-3 bg-[#0d0d0d] border-2 border-[#22d3ee] text-foreground text-lg focus:outline-none focus:pixel-glow transition-all"
+              className="w-full px-4 py-3 bg-[#0d0d0d] border-2 border-[#22d3ee] text-[#22d3ee] text-lg focus:outline-none focus:pixel-glow transition-all"
               placeholder="Enter number..."
               disabled={loading}
             />
