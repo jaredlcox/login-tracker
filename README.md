@@ -1,4 +1,4 @@
-# Login Try Tracker
+# Login Tracker
 
 A funny internal tracker app built with Next.js 14 and Firebase Firestore that records how many attempts it takes for a co-worker to successfully log into their computer.
 

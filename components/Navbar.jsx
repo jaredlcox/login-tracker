@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="border-b-4 border-primary bg-card mb-8">
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <h1 className="text-xl md:text-2xl text-primary text-glow text-center md:text-left">LOGIN TRY TRACKER</h1>
+          <h1 className="text-xl md:text-2xl text-primary text-glow text-center md:text-left">LOGIN TRACKER</h1>
           <div className="flex gap-4 justify-center">
             <Link
               href="/"

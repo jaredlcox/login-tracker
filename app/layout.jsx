@@ -9,7 +9,7 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata = {
-  title: "Login Try Tracker",
+  title: "Login Tracker",
   description: "Track login attempts with retro pixel style",
   generator: "v0.app",
 }
