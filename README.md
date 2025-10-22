@@ -87,6 +87,3 @@ utils/
 ## License
 
 MIT
-\`\`\`
-
-```json file="" isHidden
