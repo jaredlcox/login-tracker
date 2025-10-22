@@ -35,8 +35,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 ### 3. Run Development Server
 
-\`\`\`bash
-npm run dev
+\`\`\`npm run dev
 \`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
@@ -75,7 +74,7 @@ utils/
   calcStats.js        # Statistics calculations
 \`\`\`
 
-## Color Palette (Aseprite-Inspired)
+## Color Palette
 
 - Background: `#0D0D0D`
 - Panel: `#1E293B`
