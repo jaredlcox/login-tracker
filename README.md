@@ -42,8 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ### 4. Deploy to Vercel
 
-\`\`\`bash
-npm run build
+\`\`\`npm run build
 \`\`\`
 
 Deploy to Vercel and add your Firebase environment variables in the project settings.
